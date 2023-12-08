@@ -62,7 +62,7 @@ void renderSensorValue(void) {
 }
 
 void warmingUpText(void) {
-  for (int i = 10; i >= 0; i--) {
+  for (int i = 60; i >= 0; i--) {
     Serial.println(i);
     display.clearDisplay();
     display.setTextSize(1);
